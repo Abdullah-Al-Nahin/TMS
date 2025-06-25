@@ -352,5 +352,15 @@ namespace Tournament_Management_System.View
             AdminDashboard ad = new AdminDashboard(this.adminUser);
             ad.Show();
         }
+
+        private void teamMembersDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void ManageUsersAndTeamsForm_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

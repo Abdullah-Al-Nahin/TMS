@@ -55,7 +55,7 @@
             // 
             this.viewTournamentsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewTournamentsButton.Location = new System.Drawing.Point(410, 165);
-            this.viewTournamentsButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.viewTournamentsButton.Margin = new System.Windows.Forms.Padding(4);
             this.viewTournamentsButton.Name = "viewTournamentsButton";
             this.viewTournamentsButton.Size = new System.Drawing.Size(389, 75);
             this.viewTournamentsButton.TabIndex = 1;
@@ -66,7 +66,7 @@
             // 
             this.viewMyMatchesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewMyMatchesButton.Location = new System.Drawing.Point(410, 278);
-            this.viewMyMatchesButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.viewMyMatchesButton.Margin = new System.Windows.Forms.Padding(4);
             this.viewMyMatchesButton.Name = "viewMyMatchesButton";
             this.viewMyMatchesButton.Size = new System.Drawing.Size(389, 70);
             this.viewMyMatchesButton.TabIndex = 2;
@@ -77,7 +77,7 @@
             // 
             this.profileButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.profileButton.Location = new System.Drawing.Point(410, 374);
-            this.profileButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.profileButton.Margin = new System.Windows.Forms.Padding(4);
             this.profileButton.Name = "profileButton";
             this.profileButton.Size = new System.Drawing.Size(389, 76);
             this.profileButton.TabIndex = 3;
@@ -87,7 +87,7 @@
             // logoutButton
             // 
             this.logoutButton.Location = new System.Drawing.Point(46, 798);
-            this.logoutButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.logoutButton.Margin = new System.Windows.Forms.Padding(4);
             this.logoutButton.Name = "logoutButton";
             this.logoutButton.Size = new System.Drawing.Size(194, 51);
             this.logoutButton.TabIndex = 4;
@@ -100,7 +100,7 @@
             this.panel1.Controls.Add(this.teamNameLabel);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(109, 521);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(911, 218);
             this.panel1.TabIndex = 5;
@@ -108,7 +108,7 @@
             // manageTeamButton
             // 
             this.manageTeamButton.Location = new System.Drawing.Point(620, 69);
-            this.manageTeamButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.manageTeamButton.Margin = new System.Windows.Forms.Padding(4);
             this.manageTeamButton.Name = "manageTeamButton";
             this.manageTeamButton.Size = new System.Drawing.Size(176, 73);
             this.manageTeamButton.TabIndex = 2;
@@ -147,8 +147,9 @@
             this.Controls.Add(this.viewTournamentsButton);
             this.Controls.Add(this.welcomeLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PlayerDashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PlayerDashboard";
             this.Load += new System.EventHandler(this.PlayerDashboard_Load);
             this.panel1.ResumeLayout(false);
